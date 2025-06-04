@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Autocomplete</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Smart Autocomplete</h2>
+
+  <button onclick="loadWordsFromFile()">Load Dictionary File</button>
+  <br>
+
+  <input type="text" id="newWordInput" placeholder="Add new word" />
+  <br>
+  <button onclick="addNewWord()">Add Word</button>
+  <div id="addWordStatus"></div>
+
+  <br /><br />
+  <label>Type your sentence:</label><br />
+  <input type="text" id="sentenceInput" placeholder="Start typing..." />
+  <button onclick="correctSentence()">Correct Sentence</button>
+
+  <div id="suggestions"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

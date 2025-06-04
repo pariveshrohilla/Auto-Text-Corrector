@@ -1,4 +1,4 @@
-# Smart Autocomplete System
+# Auto-Text-Complete System
 
 A web-based autocomplete system using Trie data structure, built with Node.js and JavaScript.
 
@@ -35,7 +35,7 @@ node server.js
 This is how the filee directory should look like
 <br>
 
-smart-autocomplete/<br>
+autocomplete/<br>
 ├── server.js<br>
 ├── words.txt<br>
 └── public/<br>
@@ -55,6 +55,6 @@ Suggestion Generation	O(k) where k is total matched suggestions<br>
 <br><br>
 Trie built with [N] words.
 <br>
-Server running at http://localhost:3000
+Server running at http://localhost:1234
 <br>
 open this in browser and see the final results
